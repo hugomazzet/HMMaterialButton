@@ -6,9 +6,9 @@ Subclass of UIButton using the Google material design
 
 ## Usage
 
-###Step 1 Add the HMMaterialButton.swift file to your xCode project.
+####Step 1 Add the HMMaterialButton.swift file to your xCode project.
 
-###Step 2 Setup the HMMaterialButtonDelegate and implement the TouchUpInside method delegated :
+####Step 2 Setup the HMMaterialButtonDelegate and implement the TouchUpInside method delegated :
 ```swift
 class MyClass : UIViewController, HMMaterialButtonDelegate
 {
@@ -19,7 +19,7 @@ class MyClass : UIViewController, HMMaterialButtonDelegate
 }
 ```
 
-###Step 3 Create your materialButton :
+####Step 3 Create your materialButton :
 ```swift
 var materialButton: HMMaterialButton!
 ...
@@ -35,4 +35,4 @@ override func viewDidLoad()
 }
 ```
 
-###Step 4 Build, Run and Enjoy !
+####Step 4 Build, Run and Enjoy !
