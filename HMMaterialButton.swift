@@ -10,7 +10,7 @@ import UIKit
 
 protocol HMMaterialButtonDelegate : NSObjectProtocol
 {
-     func materialButtonTouchUpInside(button: HMButton)
+     func materialButtonTouchUpInside(button: HMMaterialButton)
 }
 
 class HMMaterialButton: UIButton
